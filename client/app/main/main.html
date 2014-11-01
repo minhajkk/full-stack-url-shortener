@@ -1,0 +1,29 @@
+<header id="top" class="header">
+    <div class="text-vertical-center">
+
+        <h1>Url Shortener</h1>
+        <h3>UNLEASH THE POWER OF THE LINK</h3>
+        <br>
+
+        <div ng-show="redirect.slug" class="ng-hide alert alert-dismissible alert-success" id="succes-alert">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true" ng-click="hideMe()">&times;</button>
+            <strong>DONE!! </strong>
+            YOU'VE CREATED YOUR URL SHORTENER
+            <a href="{{baseUrl}}/{{redirect.slug}}" target="_blank"><i class="fa fa-external-link-square"></i> </a><span>{{baseUrl}}/{{redirect.slug}}</span>
+        </div>
+
+        <div class="url-shortener-container">
+            <form class="form-horizontal" role="form" name="form" novalidate>
+                <div class="form-group form-group-lg ">
+                    <div class="input-group input-group-lg url-shortener-input">
+                        <input type="url" class="form-control input-lg" ng-model="url" required placeholder="Long Url...">
+                        <span class="input-group-btn">
+                            <input type="button" class="btn btn-default" ng-click="shorten()" ng-disabled="form.$invalid" value="Shorten"/>
+                      </span>
+                    </div>
+                    <!-- /input-group -->
+                </div>
+                <!-- /.col-lg-6 -->
+            </form>
+        </div></div>
+</header>
