@@ -517,7 +517,7 @@ module.exports = function (grunt) {
                     dest: '<%= yeoman.client %>/components/common/config.js'
                 },
                 constants: {
-                    name: 'production',
+                    ENV: 'production',
                     baseUrl: 'http://node-us.herokuapp.com/'
                 }
             }

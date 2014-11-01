@@ -2,7 +2,7 @@
 
 angular.module("config", [])
 
-.constant("name", "production")
+.constant("ENV", "production")
 
 .constant("baseUrl", "http://node-us.herokuapp.com/")
 
