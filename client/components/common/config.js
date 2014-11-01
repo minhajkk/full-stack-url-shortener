@@ -2,8 +2,9 @@
 
 angular.module("config", [])
 
-.constant("ENV", "production")
-
-.constant("baseUrl", "http://node-us.herokuapp.com/")
+.constant("ENV", {
+  "name": "development",
+  "baseUrl": "http://localhost:9000"
+})
 
 ;

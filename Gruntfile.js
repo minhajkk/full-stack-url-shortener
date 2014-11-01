@@ -517,8 +517,10 @@ module.exports = function (grunt) {
                     dest: '<%= yeoman.client %>/components/common/config.js'
                 },
                 constants: {
-                    ENV: 'production',
-                    baseUrl: 'http://mean-shortener.herokuapp.com'
+                    ENV: {
+                        name: 'production',
+                        baseUrl: 'http://mean-shortener.herokuapp.com'
+                    }
                 }
             }
         }
