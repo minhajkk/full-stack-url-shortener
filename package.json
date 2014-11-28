@@ -22,6 +22,7 @@
     "passport": "~0.2.0",
     "passport-local": "~0.1.6",
     "randomstring": "^1.0.3",
+    "raygun": "^0.5.0",
     "serve-favicon": "~2.0.1",
     "socket.io": "^1.0.6",
     "socket.io-client": "^1.0.6",
@@ -75,6 +76,7 @@
     "grunt-svgmin": "~0.4.0",
     "grunt-usemin": "~2.1.1",
     "grunt-wiredep": "~1.8.0",
+    "hale": "^1.2.0",
     "handlebars": "^2.0.0",
     "jit-grunt": "^0.5.0",
     "js-lru-cache": "^0.1.8",
@@ -113,6 +115,7 @@
     "tar-fs": "^1.2.0",
     "time-grunt": "~0.3.1",
     "tmp": "0.0.24",
+    "uglify-js": "^2.4.15",
     "which": "^1.0.5"
   },
   "engines": {
